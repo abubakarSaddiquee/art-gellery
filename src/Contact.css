@@ -1,0 +1,118 @@
+.Contact,
+.ContactDark {
+  padding-top: 6rem;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.ContactDark {
+  background-color: #333;
+}
+
+.headingDark {
+  color: white;
+}
+.paragraphDark {
+  color: white;
+}
+
+input[type="text"],
+select,
+textarea {
+  background-color: #d5d6dd;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border: none;
+  outline: none;
+}
+
+input[type="email"],
+select,
+textarea {
+  background-color: #d5d6dd;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border: none;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  width: 25rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.ContactmeLeft {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 545px; /* Should be removed. Only for demonstration */
+}
+.ContactmeRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 545px; /* Should be removed. Only for demonstration */
+}
+.ContactRow {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.line {
+  border-top: 2px solid rgb(70, 60, 53);
+}
+.Sendbtn {
+  background-color: skyblue;
+  height: 2rem;
+  width: 4rem;
+  border: none;
+  border-radius: 3px;
+}
+@media (max-width: 375px) {
+  .ContactmeLeft {
+    width: 21rem;
+  }
+  button {
+    margin-right: 0;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1024px) {
+}

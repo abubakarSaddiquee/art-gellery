@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.About,
+.AboutDark {
+  padding-top: 6.4rem;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.AboutDark {
+  background-color: #333;
+}
+
+.headDark {
+  color: white;
+}
+
+.AboutCard,
+.AboutCardDark {
+  display: inline-table;
+  padding-top: 3rem;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  margin: 8px;
+
+  border-radius: 5px;
+}
+.AboutCardDark {
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  background-color: #333 !important;
+}
+
+.containerDark {
+  color: aliceblue;
+}
+
+.CeoDark {
+  padding-left: 2.5rem;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+
+  text-align: center;
+  cursor: pointer;
+  width: 13rem;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 375px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 1024px) {
+}
