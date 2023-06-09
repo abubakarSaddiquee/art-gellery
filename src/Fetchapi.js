@@ -232,20 +232,18 @@ function Fetchapi() {
       </div>
 
       <div class={isDark ? "rowDark" : "row"}>
-        {image1.length !== 0
-          ? image1.photos.map((item) => {
-              return (
-                <div className="category" key={item.id}>
-                  {/* <p>{item.name}</p> */}
-                  <img
-                    alt="image"
-                    src={item.src.large2x}
-                    className="imagegrid"
-                  />
-                </div>
-              );
-            })
-          : null}
+        {image1.length !== 0 ? (
+          image1.photos.map((item) => {
+            return (
+              <div className="category" key={item.id}>
+                {/* <p>{item.name}</p> */}
+                <img alt="image" src={item.src.large2x} className="imagegrid" />
+              </div>
+            );
+          })
+        ) : (
+          <div style={{ color: "white" }}>No Data</div>
+        )}
       </div>
 
       <div class={isDark ? "paginationDark" : "pagination"}>

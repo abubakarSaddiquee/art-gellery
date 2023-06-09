@@ -39,7 +39,7 @@ function Header() {
             type="button"
             onClick={toggleTheme}
           >
-            {isDark ? <i class="fas fa-sun"></i> : <i class="fas fa-moon"></i>}
+            {isDark ? <i  class="fas fa-sun"></i> : <i  class="fas fa-moon"></i>}
           </button>
         </div>
       </div>
